@@ -3,39 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple (india)</title>
+    <title>Apple (India)</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav class="navbar">
-    <!-- Child 1: The Brand Logo -->
-    <div class="logo">
-         <img src="resources/logo.svg" alt="Apple Logo"> 
+    <!-- Global Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="resources/logo.svg" alt="Apple Logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+
+        <div class="logo">
+            <img src="resources/search.svg" alt="Search Icon">
+        </div>
+        <div class="logo">
+            <img src="resources/bag.svg" alt="Cart Icon">
+        </div>
+    </nav>
+
+    <!-- Promo Ribbon -->
+    <div class="promo-ribbon">
+        <p>Get up to 6 months of No Cost EMI plus up to ₹15000 instant cashback on selected products with eligible cards.<sup>‡</sup> <a href="#">Shop &rsaquo;</a></p>
     </div>
 
-    <!-- Child 2: The Navigation Links -->
-    <ul class="nav-links">
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Mac</a></li>
-        <li><a href="#">iPad</a></li>
-        <li><a href="#">iPhone</a></li>
-        <li><a href="#">Watch</a></li>
-        <li><a href="#">AirPods</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Support</a></li>
-    </ul>
-    <div class="logo">
-        <img src="resources/search.svg" alt="Search Icon">
-    </div>
-    <div class="logo">
-        <img src="resources/bag.svg" alt="Cart Icon">
-    </div>
-</nav>
-<div class="promo-ribbon">
-    <p>Get up to 6 months of No Cost EMI plus up to ₹15000 instant cashback on selected products with eligible cards.<sup>‡</sup> <a href="#">Shop &rsaquo;</a></p>
-</div>
+    <!-- Primary Hero Section -->
+    <section class="hero-iphone">
+        <div class="hero-content">
+            <h1>iPhone</h1>
+            <p>Meet the most powerful iPhone line-up ever.</p>
+            <div class="cta-links">
+                <a href="#" class="btn-primary">Learn more</a>
+                <a href="#" class="btn-secondary">Shop iPhone</a>
+            </div>
+        </div>
+        <img src="resources/iphone.jpg" alt="iPhone lineup" class="hero-img">
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
